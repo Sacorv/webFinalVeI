@@ -55,6 +55,85 @@
     </div>
 </nav>
 <!--Fin NavBar-->
+
+<main>
+  <section class="row p-4">
+    <article class="col">
+      <form action="#">
+        <h2>Datos principales</h2>
+
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" id="nombre" class="form-control">  
+        </div>
+        <div class="mb-3">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" id="apellido" class="form-control">  
+        </div>
+        <div class="mb-3">
+          <label for="peso" class="form-label">Peso</label>
+          <input type="text" id="peso" class="form-control">  
+        </div>
+        <div class="mb-3">
+          <label for="altura" class="form-label">Altura</label>
+          <input type="text" id="altura" class="form-control">  
+        </div>
+      </form>
+    </article>
+    <article class="col">
+      <img class="img-fluid" width="430px" src="./img/form.png" alt="formulariologo">
+    </article>
+  </section>
+
+  <section class="p-4">
+    <form action="#">
+      <fieldset>
+        <legend>Definir disponibilidad</legend>
+        <div class="mb-4">
+          <div class="form-check form-check-inline mt-3">
+            <input type="checkbox" id="lunes">  
+            <label for="lunes">Lunes</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" id="Martes">
+            <label for="Martes">Martes</label>  
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" id="Miercoles">
+            <label for="Miercoles">Miércoles</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" id="Jueves">
+            <label for="Jueves">Jueves</label>  
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" id="Viernes">
+            <label for="Viernes">Viernes</label>  
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" id="Sabado">
+            <label for="Sabado">Sábado</label>  
+          </div>
+          <div class="form-check form-check-inline">
+            <input type="checkbox" id="Domingo">   
+            <label for="Domingo">Domingo</label> 
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="horario" class="form-label mb-3">Horario</label>
+          <select name="hora" id="horario" class="form-select">
+            <option value="Mañana">Mañana</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noche">Noche</option>
+          </select>
+        </div>
+
+      </fieldset>
+
+    </form>
+
+  </section>
+</main>
       
 <!--Footer-->
 <div class="container">
