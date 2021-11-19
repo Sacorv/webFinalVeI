@@ -1100,6 +1100,10 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  .chek-col {
+    display: block;
+  }
+
   .col-md {
     flex: 1 0 0%;
   }
@@ -6724,6 +6728,10 @@ textarea.form-control-lg {
 
 .d-none {
   display: none !important;
+}
+
+.ip:hover{
+  box-shadow: 1px 1px 13px #d7dfdf;
 }
 
 .shadow {

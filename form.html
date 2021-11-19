@@ -95,7 +95,7 @@
 
 	<main>
     <div class="container">
-      <section class="row p-4">
+      <section class="row row-cols-1 row-cols-md-2 row-1-colum p-4">
         <article class="col">
           <form action="#">
             <h1 class="mb-5">Mi datos personales</h1>
@@ -103,38 +103,38 @@
   
             <div class="mb-3">
               <label for="nombre" class="form-label">Nombre</label>
-              <input type="text" id="nombre" class="form-control">
+              <input type="text" id="nombre" class="form-control border border-secondary ip" autofocus style="outline:none">
             </div>
             <div class="mb-3">
               <label for="apellido" class="form-label">Apellido</label>
-              <input type="text" id="apellido" class="form-control">
+              <input type="text" id="apellido" class="form-control border border-secondary ip">
             </div>
             <div class="form-check form-check-inline mt-3 me-3 pe-5">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <input class="form-check-input border border-secondary" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
               <label class="form-check-label" for="inlineRadio1">Femenino</label>
             </div>
             <div class="form-check form-check-inline me-3 pe-5">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <input class="form-check-input border border-secondary" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
               <label class="form-check-label" for="inlineRadio2">Masculino</label>
             </div>
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+              <input class="form-check-input border border-secondary" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
               <label class="form-check-label" for="inlineRadio3">Prefiero no decirlo</label>
             </div>          
             <div class="row mt-5">
               <div class="col mb-3">
                 <label for="peso" class="form-label">Peso</label>
-                <input type="text" id="peso" class="form-control">
+                <input type="text" id="peso" class="form-control border border-secondary ip">
               </div>
               <div class="col mb-3">
                 <label for="altura" class="form-label">Altura</label>
-                <input type="text" id="altura" class="form-control">
+                <input type="text" id="altura" class="form-control border border-secondary ip">
               </div>  
             </div>
           </form>
         </article>
-        <article class="col-6 align-items-end d-flex justify-content-center bg-image">
-          <img class="img-fluid w-75 h-75 p-6 opacity-75 rounded-3 shadow-sm mx-auto d-block" src="./img/img-form.jpg" alt="formulariologo">
+        <article class="col align-items-end d-flex justify-content-center bg-image">
+          <img class="opacity-75 rounded-3 shadow-sm mx-auto d-block border border-2 shadow-5-strong img-form" style="max-width: 85%" src="./img/img-form.jpg" alt="formulariologo">
         </article>
       </section>
   
@@ -143,7 +143,7 @@
           <fieldset>
             <p class="fs-5">Elegí tu horario disponible</p>
             <div class="mb-4 pb-3">
-              <div class="form-check form-check-inline mt-3 ms-0 ps-0">
+              <div class="form-check form-check-inline chek-col mt-3 ms-0 ps-0">
                 <input type="checkbox" id="lunes">
                 <label for="lunes">Lunes</label>
               </div>
@@ -174,7 +174,7 @@
             </div>
             <div class="col-md-6">
               <label for="horario" class="form-label mb-3 fs-5">Horario</label>
-              <select name="hora" id="horario" class="form-select">
+              <select name="hora" id="horario" class="form-select border border-secondary ip">
                 <option value="Mañana">Mañana</option>
                 <option value="Tarde">Tarde</option>
                 <option value="Noche">Noche</option>
@@ -183,10 +183,11 @@
   
           </fieldset>
   
-          <div class="col-12 mt-4">
-            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <div class="col-12 mt-4 pb-2 pt-2">
+            <button type="button" class="btn btn-primary fs-5 pe-4 ps-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
              Ver mi rutina
             </button>
+            <a class="btn btn-outline-secondary fs-5 pe-4 ps-4" href="index.html" role="button">Volver atrás</a>
           </div>
         </form>
       </section>  
@@ -202,7 +203,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ¿Estas seguro/a?
+        ¿Estas segura/o?
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
