@@ -134,7 +134,7 @@
           </form>
         </article>
         <article class="col-6 align-items-end d-flex justify-content-center bg-image">
-          <img class="img-fluid w-75 h-75 p-6 opacity-75 rounded-3 shadow-sm" src="./img/img-form.jpg" alt="formulariologo">
+          <img class="img-fluid w-75 h-75 p-6 opacity-75 rounded-3 shadow-sm mx-auto d-block" src="./img/img-form.jpg" alt="formulariologo">
         </article>
       </section>
   
@@ -183,14 +183,36 @@
   
           </fieldset>
   
-          <div class="col-12">
-            <a class="btn btn-primary mt-5 pt-2 pb-2 ps-5 pe-5" href="especifica.html" role="button">Ver Mi
-              Rutina</a>
+          <div class="col-12 mt-4">
+            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             Ver mi rutina
+            </button>
           </div>
         </form>
       </section>  
     </div>
 	</main>
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirmar formulario</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ¿Estas seguro/a?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <a class="btn btn-primary " href="especifica.html" role="button">Aceptar</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 	<!--Footer-->
 	<div class="container">
